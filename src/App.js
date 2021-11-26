@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ColorThemeTutorial from "./components/ColorThemeTutorial";
+// import StepperTutorial2 from "./components/StepperTutorial2";
+// import StepperHooks from "./components/StepperTutorial1";
+// import IconTutorial from "./components/IconTutorial";
+// import TabTutorial from "./components/TabTutorial";
+// import GridTutorial1 from "./components/GridTutorial1";
+// import GridTutorial2 from "./components/GridTutorial2";
 
 function App() {
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <GridTutorial1 /> */}
+      {/* <GridTutorial2 /> */}
+      {/* <TabTutorial /> */}
+      {/* <IconTutorial /> */}
+      {/* <StepperHooks /> */}
+      {/* <StepperTutorial2 /> */}
+      <ColorThemeTutorial />
     </div>
   );
 }
